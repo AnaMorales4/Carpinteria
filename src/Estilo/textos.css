@@ -1,0 +1,28 @@
+.Categorias{
+    text-align: center;
+    color: #fff;
+    background-color: #D99066;
+    margin-top: 0.5rem;
+}
+.contenedor{
+    width: 100%;
+}
+.texto{
+    width: 50%;
+    color: white;
+    background-color: #44271F;
+    margin-top: 150px;
+    grid-column-start: auto;
+    border-radius: 1em;
+    float: left;
+    margin-left: 40px;
+}
+.imagen{
+    margin-top: 5px;
+    grid-column-end: auto; 
+    width: 600px;
+    height: 500px;
+    margin-right: auto;
+    float: right;
+    margin-right: 20px;
+}
