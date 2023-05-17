@@ -17,7 +17,7 @@ function Comunicacionf() {
                 <div className='card-body mx-auto'>
                     <img src={require("../Imagenes/whatsapp.png")} className='card-img-top w-50'/>
                     <p>Escribenos al número</p> 
-                    <p>57+ 320 6099654</p>
+                    <a href='https://api.whatsapp.com/send/?phone=573206099654&text&type=phone_number&app_absent=0'>57+ 320 6099654</a>
                 </div>
                 <div className='card-body mx-auto'>
                     <img src={require("../Imagenes/mapa.png")} className='card-img-top w-50' />
