@@ -9,12 +9,10 @@ function Nav(){
     };
     return(
         <header>
-            <nav ref={navRef} className="navbar mx-auto" >
-                <div>
-                <img src={require("../Imagenes/logo.png")} style={{width:"4rem"}}/>
-            <h3>LTHN Carpinteria</h3>
-            
-                </div>
+           
+            <nav ref={navRef}  >
+            <div> <img src={require("../Imagenes/logo.png")} style={{width:"4rem"}}/>
+            <h3>LTHN Carpinteria</h3></div>
                 <ul>
                     <li>
                         <Link to={"/"} style={{color:'white'}}>INICIO</Link>
