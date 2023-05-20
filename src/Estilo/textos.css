@@ -46,3 +46,14 @@
     float: right;
     margin-right: 20px;
 }
+.info1{
+    position: relative;
+    float: right;
+    left: 30%;
+    right: 20%;
+}
+.info2{
+    float: left;
+    width: 10px;
+    height: 10px;
+}
