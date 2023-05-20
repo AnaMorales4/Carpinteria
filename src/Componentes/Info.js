@@ -9,9 +9,9 @@ function Informacion(){
             Nos esforzamos por ofrecer a nuestros clientes piezas únicas y duraderas que transformen espacios
             y reflejen la belleza natural de la madera.</p>
     </div>
-    <div class="info1">
-        <img src={require("../Imagenes/info1.jpg")}/>
-    </div>
+        <div>
+            <img src={require("../Imagenes/info1.jpg")} class="info1"/>
+        </div>
     <div class="vision" style={{justifyContent: "center", textAlign: 'center'}}>
     <h1 style={{textAlign:"center"}}>VISIÓN</h1>
     <p>Nuestra visión es convertirnos en la ebanistería de referencia, reconocida por nuestra artesanía
@@ -21,9 +21,9 @@ function Informacion(){
         de calidad.
     </p>
     </div>
-    <div class="info2">
-        <img src={require("../Imagenes/info2.jpg")}/>
-    </div>
+        <div>
+            <img src={require("../Imagenes/info2.jpg")} class="info2"/>
+        </div>  
 </div>
     )
 }
