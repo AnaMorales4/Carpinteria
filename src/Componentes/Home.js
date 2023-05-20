@@ -12,7 +12,7 @@ return (
             productos de la mayor calidad. Para llegar a este objetivo, seleccionamos los mejores materiales y
             optimizar nuestros procesos de fabricación.</p>
         </div>
-        <div >
+        <div>
         <img src={require("../Imagenes/Collage1.png")}class='imagen'/>
         </div>
     </div>

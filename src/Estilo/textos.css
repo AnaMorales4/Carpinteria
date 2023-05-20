@@ -26,3 +26,23 @@
     float: right;
     margin-right: 20px;
 }
+.mision{
+    width: 50%;
+    color: white;
+    background-color: #44271F;
+    margin-top: 15px;
+    grid-column-start: auto;
+    border-radius: 1em;
+    float: left;
+    margin-left: 20px;
+}
+.vision{
+    width: 50%;
+    color: white;
+    background-color: #44271F;
+    margin-top: 150px;
+    grid-column-start: auto;
+    border-radius: 1em;
+    float: right;
+    margin-right: 20px;
+}
