@@ -27,6 +27,7 @@
     margin-right: 20px;
 }
 .mision{
+    text-align: center;
     width: 50%;
     color: white;
     background-color: #44271F;
@@ -37,6 +38,7 @@
     margin-left: 10px;
 }
 .vision{
+    text-align: center;
     width: 50%;
     color: white;
     background-color: #44271F;
@@ -44,14 +46,14 @@
     grid-column-start: auto;
     border-radius: 1em;
     float: right;
-    margin-right: 10px;
-}
+    margin-right: 10px;}
 .info1{
     float: right;
-    width: 500px;
-    height: 250px;
-    margin-right:10px ;
+    width: 650px;
+    height: 200px;
+    margin-right:10px;
     margin-top: 15px;
+    border-radius: 1em;
 }
 .info2{
     float: left;
