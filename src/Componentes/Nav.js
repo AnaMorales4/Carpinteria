@@ -9,7 +9,6 @@ function Nav(){
     };
     return(
         <header>
-           
             <nav ref={navRef}  >
             <div> <img src={require("../Imagenes/logo.png")} style={{width:"4rem"}}/>
             <h3>LTHN Carpinteria</h3></div>
@@ -23,6 +22,9 @@ function Nav(){
                     <li>
                         <Link to={"/Comunicacion"} style={{color:'white'}}>CONTACTO</Link>
                     </li>
+                    <li>
+                        <Link to={"/Info"} style={{color:'white'}}>QUIENES SOMOS</Link>
+                    </li>
                 </ul>
                 <button className="nav-btn nav-close-btn" onClick={showNavar}>
                     <FaTimes/>
@@ -34,5 +36,4 @@ function Nav(){
         </header>
     )
 }
-
 export default Nav;

@@ -7,6 +7,7 @@ import Iniciof from "./Componentes/Home";
 import Portafoliof from "./Componentes/Portafolio";
 import Nav from './Componentes/Nav';
 import Comunicacionf from'./Componentes/Comunicacion'
+import Informacion from "./Componentes/Info";
 function App() {
   return (
     <div>
@@ -16,7 +17,8 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Iniciof />}></Route>
           <Route exact path="/Portafolio" element={<Portafoliof/>}></Route>
-          <Route exact path="Comunicacion" element={<Comunicacionf/>}></Route>
+          <Route exact path="/Comunicacion" element={<Comunicacionf/>}></Route>
+          <Route exact path="/Info" element={<Informacion/>}></Route>
         </Routes>
       </Router>
     </React.Fragment>
