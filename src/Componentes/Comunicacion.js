@@ -1,7 +1,7 @@
 import React from 'react';
 function Comunicacionf() {
     return (
-        <div className=''>
+        <div>
             <h4 class="Categorias">Redes Sociales</h4>
             <div className='Card text-center'style={{display:"flex"}} >
                 <div className='card-body mx-auto' >
