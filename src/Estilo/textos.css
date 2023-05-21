@@ -28,10 +28,10 @@
 }
 .mision{
     text-align: center;
-    width: 50%;
+    width: 49%;
     color: white;
     background-color: #44271F;
-    margin-top: 15px;
+    margin-top: 50px;
     grid-column-start: auto;
     border-radius: 1em;
     float: left;
@@ -39,26 +39,28 @@
 }
 .vision{
     text-align: center;
-    width: 50%;
+    width: 49%;
     color: white;
     background-color: #44271F;
-    margin-top: 80px;
+    margin-top: 70px;
     grid-column-start: auto;
     border-radius: 1em;
     float: right;
     margin-right: 10px;}
 .info1{
     float: right;
-    width: 650px;
-    height: 200px;
+    width: 49%;
+    height: 165px;
     margin-right:10px;
-    margin-top: 15px;
+    margin-top: 50px;
     border-radius: 1em;
 }
 .info2{
+    border-radius: 1em;
     float: left;
-    width: 500px;
-    height: 450px;
+    width: 49%;
+    height: 190px;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 70px;
+    
 }
