@@ -20,10 +20,10 @@ function Nav(){
                         <Link to={"/Portafolio"} style={{color:'white'}}>PORTAFOLIO</Link>
                     </li>
                     <li>
-                        <Link to={"/Comunicacion"} style={{color:'white'}}>CONTACTO</Link>
+                        <Link to={"/Info"} style={{color:'white'}}>QUIENES SOMOS</Link>
                     </li>
                     <li>
-                        <Link to={"/Info"} style={{color:'white'}}>QUIENES SOMOS</Link>
+                        <Link to={"/Comunicacion"} style={{color:'white'}}>CONTACTO</Link>
                     </li>
                 </ul>
                 <button className="nav-btn nav-close-btn" onClick={showNavar}>
