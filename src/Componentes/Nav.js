@@ -17,9 +17,6 @@ function Nav(){
                         <Link to={"/"} style={{color:'white'}}>INICIO</Link>
                     </li>
                     <li>
-                    <Link to={"/Login"} style={{color:'white'}}>REGISTRARSE</Link>
-                    </li>
-                    <li>
                         <Link to={"/Portafolio"} style={{color:'white'}}>PORTAFOLIO</Link>
                     </li>
                     <li>
@@ -29,10 +26,10 @@ function Nav(){
                         <Link to={"/Comunicacion"} style={{color:'white'}}>CONTACTO</Link>
                     </li>
                     <li>
-                        
-                    <li>
                     <Link to={"/Pedidos"} style={{color:'white'}}>REALIZAR PEDIDO</Link>
                     </li>
+                    <li>
+                    <Link to={"/Consulta"} style={{color:'white'}}>CONSULTAR PEDIDO</Link>
                     </li>
                 </ul>
                 <button className="nav-btn nav-close-btn" onClick={showNavar}>
