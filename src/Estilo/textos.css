@@ -62,5 +62,12 @@
     margin-top: 70px;
 }
 .enviar{
-    background-color: #44271F;
+    background-color: #B36743;
+    border-radius: 0.5em;
+    width: 10%;
+}
+.consultap{
+    background-color: #B36743;
+    border-radius: 0.5em;
+    width: 100%;
 }
