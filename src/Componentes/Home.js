@@ -15,9 +15,6 @@ return (
         <div>
         <img src={require("../Imagenes/Collage1.png")}class='imagen'/>
         </div>
-        <div>
-            <h1>hola</h1>
-        </div>
     </div>
 )
 }
