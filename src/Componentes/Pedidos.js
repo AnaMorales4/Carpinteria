@@ -106,6 +106,5 @@ function Ordenes() {
                 </div>
             </form>
         </div>
-    )
-}
+    )}
 export default Ordenes;
