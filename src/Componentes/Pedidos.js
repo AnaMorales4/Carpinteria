@@ -26,10 +26,10 @@ function Ordenes() {
                     especificaciones: especificaciones
                 })
                 .then(() => {
-                    alert("Producto creado");
+                    alert("Pedido enviado");
                     limpiarCampos();
                 }).catch(() => {
-                    alert("Error")
+                    alert("Su pedido no fue enviado, intente nuevamente")
                 });
         }
         const limpiarCampos = () => {
